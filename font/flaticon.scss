@@ -1,0 +1,141 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?9e033055b6d8b531a819397ef6d20bb3") format("truetype"),
+url("./flaticon.woff?9e033055b6d8b531a819397ef6d20bb3") format("woff"),
+url("./flaticon.woff2?9e033055b6d8b531a819397ef6d20bb3") format("woff2"),
+url("./flaticon.eot?9e033055b6d8b531a819397ef6d20bb3#iefix") format("embedded-opentype"),
+url("./flaticon.svg?9e033055b6d8b531a819397ef6d20bb3#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "right-arrow": "\f101",
+    "right-arrow-1": "\f102",
+    "left-arrow": "\f103",
+    "back": "\f104",
+    "arrow": "\f105",
+    "user": "\f106",
+    "user-1": "\f107",
+    "user-2": "\f108",
+    "shopping-bag": "\f109",
+    "shopping-bag-1": "\f10a",
+    "shopping-bag-2": "\f10b",
+    "bag": "\f10c",
+    "calendar": "\f10d",
+    "calendar-1": "\f10e",
+    "calendar-2": "\f10f",
+    "truck": "\f110",
+    "truck-1": "\f111",
+    "customer-service": "\f112",
+    "money": "\f113",
+    "compare": "\f114",
+    "shopping-basket": "\f115",
+    "shopping-basket-1": "\f116",
+    "star-social-favorite-middle-full": "\f117",
+    "star": "\f118",
+    "star-1": "\f119",
+    "star-half-empty": "\f11a",
+    "half-star-shape": "\f11b",
+    "magnifying-glass-1": "\f11c",
+    "magnifying-glass": "\f11d",
+);
+
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-right-arrow-1:before {
+    content: map-get($flaticon-map, "right-arrow-1");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-back:before {
+    content: map-get($flaticon-map, "back");
+}
+.flaticon-arrow:before {
+    content: map-get($flaticon-map, "arrow");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-user-1:before {
+    content: map-get($flaticon-map, "user-1");
+}
+.flaticon-user-2:before {
+    content: map-get($flaticon-map, "user-2");
+}
+.flaticon-shopping-bag:before {
+    content: map-get($flaticon-map, "shopping-bag");
+}
+.flaticon-shopping-bag-1:before {
+    content: map-get($flaticon-map, "shopping-bag-1");
+}
+.flaticon-shopping-bag-2:before {
+    content: map-get($flaticon-map, "shopping-bag-2");
+}
+.flaticon-bag:before {
+    content: map-get($flaticon-map, "bag");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-calendar-1:before {
+    content: map-get($flaticon-map, "calendar-1");
+}
+.flaticon-calendar-2:before {
+    content: map-get($flaticon-map, "calendar-2");
+}
+.flaticon-truck:before {
+    content: map-get($flaticon-map, "truck");
+}
+.flaticon-truck-1:before {
+    content: map-get($flaticon-map, "truck-1");
+}
+.flaticon-customer-service:before {
+    content: map-get($flaticon-map, "customer-service");
+}
+.flaticon-money:before {
+    content: map-get($flaticon-map, "money");
+}
+.flaticon-compare:before {
+    content: map-get($flaticon-map, "compare");
+}
+.flaticon-shopping-basket:before {
+    content: map-get($flaticon-map, "shopping-basket");
+}
+.flaticon-shopping-basket-1:before {
+    content: map-get($flaticon-map, "shopping-basket-1");
+}
+.flaticon-star-social-favorite-middle-full:before {
+    content: map-get($flaticon-map, "star-social-favorite-middle-full");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-star-1:before {
+    content: map-get($flaticon-map, "star-1");
+}
+.flaticon-star-half-empty:before {
+    content: map-get($flaticon-map, "star-half-empty");
+}
+.flaticon-half-star-shape:before {
+    content: map-get($flaticon-map, "half-star-shape");
+}
+.flaticon-magnifying-glass-1:before {
+    content: map-get($flaticon-map, "magnifying-glass-1");
+}
+.flaticon-magnifying-glass:before {
+    content: map-get($flaticon-map, "magnifying-glass");
+}

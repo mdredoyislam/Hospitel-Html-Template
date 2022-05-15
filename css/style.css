@@ -1,0 +1,765 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+ul,ol{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*======================= Main top =======================*/
+#main-top {
+	background: #ffffff;
+	border-bottom: 1px solid #f2f2f2;
+}
+.mail , .title ,.call ,.top-left p {
+	display: inline-block;
+	font-size: 12px;
+	line-height: 24px;
+	color: #747474;
+	padding: 11px 15px;
+	font-weight: 500;
+}
+.title ,.call{
+    border-right: 1px solid #f2f2f2;
+}
+.call p svg , .title p svg , .mail p svg {
+	color: #a5c422;
+	margin-right: 5px;
+}
+.top-right {
+	text-align: end;
+}
+#main-menu ul li a {
+	font-size: 12px;
+	font-weight: 500;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #393939 !important;
+    background-color: transparent;
+    transition: all linear.4s;
+}
+#main-menu ul li a:hover{
+    color: #393939 !important;
+}
+.navbar-brand {
+	float: left;
+	height: 50px;
+	padding: 15px 15px;
+	font-size: 18px;
+	line-height: 20px;
+    font-weight: 500;
+    color: #393939 !important;
+}
+.navbar-brand svg {
+	color: #a5c422;
+	padding-right: 0;
+	margin-right: -4px;
+}
+.appointment-btn {
+	line-height: 24px !important;
+}
+.appointment-btn a {
+	background: #a5c422;
+	border-radius: 3px;
+	color: #ffffff;
+	font-weight: 600;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-right: 20px;
+	padding-left: 20px;
+    font-size: 12px;
+    transition: all linear.4s;
+}
+.appointment-btn a:hover {
+    background: #4267b2;
+    color: #ffffff !important;
+}
+.navbar-expand-lg .navbar-collapse {
+	display: block !important;
+}
+.navbar-nav {
+	float: right;
+}
+/*======================= single-slider =======================*/
+.single-slider {
+	background-image: url('../images/home_background_1.jpg');
+	background-repeat: no-repeat;
+	background-position: 100%;
+	background-size: cover;
+	padding: 132px 0;
+	border-bottom: 3px solid #a5c422;
+}
+.slider-text h2 {
+	font-size: 65px;
+	font-weight: 900;
+	color: #393939;
+	margin-bottom: 15px;
+}
+.slider-text p {
+	color: #757575;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 32px;
+	margin-bottom: 45px;
+}
+.slider-text a {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #393939;
+}
+/*======================= Shedule =======================*/
+#shedule-section {
+	padding: 40px 0;
+}
+.single-shedule {
+	background: #a5c422;
+	padding: 30px;
+	border-radius: 10px;
+    border-bottom: 3px solid #333;
+    transition: all linear.4s;
+}
+.single-shedule:hover {
+	box-shadow: 0px 15px 15px #333;
+}
+.shedule-icon svg {
+	color: #f1f1f1;
+	font-size: 32px;
+	margin-bottom: 15px;
+}
+.shedule ul {
+	padding: 0;
+}
+.shedule ul li {
+	overflow: hidden;
+}
+.day {
+    display: inline-block;
+    float: left;
+    color: #f1f1f1;
+}
+.time {
+	display: inline-block;
+    float: right;
+    color: #f1f1f1;
+}
+.shedule-text h5 {
+	color: #f1f1f1;
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 40px;
+}
+.appointments h5 {
+	margin-bottom: 14px;
+}
+.shedule p {
+	font-size: 14px;
+	color: #f1f1f1;
+	line-height: 29px;
+}
+.emergency h5 {
+	margin-bottom: 26px;
+}
+.shedule.emergency span {
+	font-size: 30px;
+	font-weight: 400;
+	color: #f1f1f1;
+}
+/*======================= about-section =======================*/
+#about-section{
+    background-image: url('../images/about-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 150px 0;
+	border-bottom: 3px solid #a5c422;
+}
+.about-content h2 {
+	color: #272727;
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+.about-content p {
+	color: #757575;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.about-content a {
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	color: #272727;
+	font-weight: 600;
+	display: inline-block;
+	border-radius: 10px;
+	background: #a5c422;
+	transition: all linear.4s;
+}
+.about-content a:hover{
+    background: #4267b2;
+    color: #f1f1f1;
+}
+/*======================= boxes =======================*/
+#boxes{
+    padding: 65px 0;
+}
+.single-box {
+	border: 1px solid #ddd;
+	padding: 30px 0;
+	border-radius: 10px;
+	transition: all linear.4s;
+}
+.single-box:hover {
+	box-shadow: 0 8px 8px #333;
+}
+.single-box:hover{
+    background: #4267b2;
+    color: #f1f1f1;
+}
+.single-box:hover .box-icon{
+    color: #4267b2;
+}
+.single-box:hover .box-dsc h3{
+    color: #f1f1f1;
+}
+.box-icon {
+	height: 70px;
+	width: 70px;
+	background: #a5c422;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 74px;
+	font-size: 40px;
+	color: #f1f1f1;
+	transition: all linear .4s;
+	margin: auto;
+	margin-bottom: 35px;
+}
+.box-dsc h3 {
+	font-size: 18px;
+	font-weight: 600;
+	color: #333333;
+	margin-bottom: 15px;
+	text-align: center;
+	transition: all linear.4s;
+}
+.box-dsc p {
+	font-size: 14px !important;
+	padding: 0 5px;
+	text-align: center;
+}
+/*======================= services =======================*/
+#services{
+    padding-top: 60px;
+}
+.services-box {
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+.services-icon {
+	width: 18%;
+	float: left;
+}
+.services-icon svg {
+    font-size: 32px;
+    color: #a5c422;
+}
+.services-desc {
+	width: 80%;
+	float: left;
+}
+.services-desc h5 {
+	font-size: 24px;
+	color: #272727;
+	font-weight: 400;
+}
+.services-desc p {
+	font-size: 14px;
+	color: #272727;
+}
+/*======================= emergency-appoient =======================*/
+#emergency-appoient {
+	background: #a5c422;
+	padding: 25px 0;
+}
+.emerjency-info h2 {
+	font-size: 32px !important;
+	font-weight: 900;
+	line-height: 1.1em;
+	margin-bottom: 10px;
+	color: #f1f1f1;
+}
+.emerjency-info p {
+	color: #f1f1f1;
+	font-size: 16px;
+}
+.emergency-call {
+	text-align: end;
+	padding-top: 5px;
+}
+.emergency-call span {
+	height: 62px;
+	padding-left: 24px;
+	padding-right: 25px;
+	line-height: 62px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	color: #f1f1f1;
+	border-radius: 19px;
+	white-space: nowrap;
+	display: inline-block;
+	border: 1px solid #f1f1f1;
+}
+/*======================= team-area =======================*/
+#team-area {
+	background: #dddddd24;
+	padding: 110px 0;
+}
+.team-single {
+	box-shadow: 0px 0px 17px -5px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+.team-info {
+	text-align: center;
+}
+.team-info h2 {
+	font-size: 40px;
+	line-height: 50px;
+	color: #333;
+	font-weight: 700;
+	position: relative;
+	padding-bottom: 30px;
+}
+.team-info p {
+	font-size: 15px;
+	line-height: 26px;
+	color: #777777;
+	font-weight: 400;
+	padding-bottom: 30px;
+	padding: 0 255px;
+	margin-bottom: 50px;
+}
+.tem-comtent h4 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+	color: #333;
+	position: relative;
+	text-align: center;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+.tem-comtent h4::before {
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 40px;
+	background: #333;
+	bottom: 0 !important;
+	left: 42% !important;
+	display: inline-block;
+}
+.tem-comtent p {
+	color: #848484;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.tem-comtent {
+	display: block;
+	padding-bottom: 35px;
+	text-align: center;
+}
+.tem-comtent a {
+	background: #fff;
+	text-transform: uppercase;
+	color: #a5c422;
+	padding: 10px 25px;
+	border: 1px solid #a5c422;
+    border-radius: 10px;
+    transition: all linear.4s;
+}
+.tem-comtent a:hover{
+    background: #4267b2;
+    border: 1px solid #4267b2;
+    color: #f1f1f1;
+}
+/*======================= fachilitis-info =======================*/
+#fachilitis-area{
+    padding: 50px 0;
+    background: #ddd;
+}
+.fachilitis-info{
+	text-align: center;
+}
+.fachilitis-info h2 {
+	font-size: 40px;
+	line-height: 50px;
+	color: #333;
+	font-weight: 700;
+	position: relative;
+	padding-bottom: 10px;
+}
+.fachilitis-info p {
+	font-size: 15px;
+	line-height: 26px;
+	color: #777777;
+	font-weight: 400;
+	padding-bottom: 30px;
+	padding: 0 255px;
+	margin-bottom: 50px;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+	margin-top: 35px !important;
+}
+.owl-theme .owl-dots .owl-dot span {
+	width: 15px !important;
+	height: 15px !important;
+}
+.owl-theme .owl-dots .owl-dot span {
+	background: #a5c422 !important;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+	background: #4267b2 !important;
+}
+/*======================= testimonial =======================*/
+#testimonial-area{
+    background-image: url('../images/test-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 150px 0;
+}
+.testimonial-caption {
+	background: #f1f1f1;
+	padding: 20px;
+	position: relative;
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+.testimonial-caption::before {
+	width: 0;
+	height: 0;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-top: 50px solid #f1f1f1;
+	position: absolute;
+	content: "";
+	transform: rotate(212deg);
+	bottom: -15px;
+	left: 22%;
+}
+.testimonial-caption a {
+	font-size: 20px;
+	color: #333;
+	font-weight: 600;
+	margin-bottom: 15px !important;
+	display: block;
+}
+.rating {
+	font-weight: 600;
+	padding: 12px 0;
+	background: none;
+	color: #333 !important;
+}
+.testimonial-caption p {
+	color: #585858;
+	font-size: 14px !important;
+	line-height: 26px;
+}
+.testimonial-image {
+	text-align: center;
+}
+.testimonial-image img {
+	border-radius: 50%;
+	height: 200px;
+	width: 200px !important;
+	margin: auto;
+}
+.testimonial-image a {
+	display: block;
+	margin-top: 10px;
+	color: #666 !important;
+	font-weight: 600;
+	text-align: center;
+}
+.testimonial-image span {
+	text-align: center;
+	color: #f1f1f1;
+}
+/*======================= blog Area =======================*/
+#blog-area{
+	padding: 60px 0;
+}
+.blog-info{
+	text-align: center;
+}
+.blog-info h2 {
+	font-size: 40px;
+	line-height: 50px;
+	color: #333;
+	font-weight: 700;
+	position: relative;
+	padding-bottom: 10px;
+}
+.red {
+	display: inline-block;
+	font-size: 14px;
+}
+.category {
+	display: inline-block;
+	margin-left: 160px;
+}
+.category a {
+	background: #a5c422;
+	color: #f1f1f1;
+	padding: 8px 20px;
+	border-radius: 5px;
+}
+.blog-content {
+	padding: 15px 5px;
+}
+.blog-content h3 {
+	font-size: 24px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+.blog-content h3 a{
+	color: #a5c422;
+	transition: all linear.4;
+}
+.blog-content h3 a:hover{
+	color: #4267b2;
+}
+.blog-content p {
+	font-size: 14px;
+	text-align: justify;
+	padding: 0 5px;
+}
+.author ul {
+	padding: 0;
+}
+.author ul li {
+	font-size: 14px;
+	display: inline-block;
+	margin-right: 13px;
+	border-right: 1px solid #a5c422;
+	padding-right: 15px;
+}
+.author ul li:last-child {
+	border: unset;
+}
+.author ul li a {
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #a5c422;
+}
+.author {
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.single-news {
+	box-shadow: 0px 0px 17px -5px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	border-bottom: 3px solid #a5c422;
+}
+.blog-img img {
+	border-radius: 10px 10px 0px 0px;
+}
+/*======================= partner =======================*/
+#partner{
+	padding: 50px 0;
+}
+.partner-info{
+	text-align: center;
+}
+.partner-info h2 {
+	font-size: 40px;
+	line-height: 50px;
+	color: #333;
+	font-weight: 700;
+	position: relative;
+	padding-bottom: 10px;
+}
+/*======================= g-map =======================*/
+#g-map {
+	width: 100%;
+	margin: auto;
+}
+#g-map iframe {
+	width: 100%;
+	height: 320px;
+}
+/*======================= Footer =======================*/
+#footer {
+	background: #4267b2;
+	padding: 50px 0;
+	color: #f1f1f1;
+	opacity: 0.8;
+}
+#footer h3 {
+	color: #f1f1f1;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	text-transform: capitalize;
+	position: relative;
+}
+#footer h3::before {
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 50px;
+	background: #f1f1f1;
+	bottom: 5px;
+}
+#footer p {
+	font-size: 14px;
+	line-height: 25px;
+	margin-bottom: 15px;
+}
+#footer ul {
+	padding: 0;
+}
+.add li p {
+	font-size: 14px !important;
+	color: #f1f1f1;
+}
+.add li p svg{
+	margin-right: 8px;
+}
+.sicial li a {
+	height: 50px;
+	width: 50px;
+	border: 1px solid #f1f1f1;
+	display: block;
+	color: #f1f1f1;
+	font-size: 24px;
+	border-radius: 50px;
+	text-align: center;
+	line-height: 51px;
+	margin-right: 10px;
+	transition: all liner.4s;
+}
+.sicial li a:hover {
+	background: #a5c422;
+	color: #f1f1f1;
+	border: #a5c422;
+}
+.sicial li {
+	display: inline-block;
+}
+.footer-two ul li a {
+	color: #f1f1f1;
+	font-size: 14px;
+	line-height: 38px;
+	transition: all liner.4s;
+}
+.footer-two ul li a:hover{
+	color: #a5c422;
+}
+.newswiget {
+	height: 40px;
+	background: transparent;
+	border: 1px solid #a5c422;
+	position: relative;
+	display: block;
+}
+.newswiget input {
+	background: transparent;
+	border: unset;
+	color: #f1f1f1;
+	height: 100%;
+	width: 80%;
+	padding-left: 5px;
+	font-size: 14px;
+}
+.newswiget button {
+	width: 18%;
+	background: #a5c422;
+	height: 100%;
+	border: unset;
+	position: absolute;
+	right: 0;
+	color: #f1f1f1;
+}
+.fsingle {
+	display: flex;
+	margin-bottom: 20px;
+}
+.fsingle img {
+	margin-right: 10px;
+	height: 80px;
+}
+.dsc h4 {
+	font-size: 15px;
+	font-weight: bold;
+}
+.dsc p {
+	font-size: 12px !important;
+}
+.copywrite {
+	background: #4267b2;
+	text-align: center;
+	padding: 20px 0;
+	color: #f1f1f1;
+}
+/*======================= Media =======================*/
+@media only screen and (max-width: 1200px){}
+@media only screen and (max-width: 1024px){
+	.mail, .title, .call {
+		display: block;
+		text-align: center;
+		border: unset;
+	}
+}
+@media only screen and (max-width: 991px){
+	.top-left {
+		text-align: center;
+	}
+	.appointment-btn {
+		display: none;
+	}
+	.single-shedule {
+		margin-bottom: 35px;
+	}
+	.single-box {
+		margin-bottom: 30px;
+	}
+	.img-fluid {
+		margin-bottom: 20px;
+	}
+	.team-info p {
+		padding: 0 0;
+	}
+	.fachilitis-info p {
+		padding: 0 0px;
+	}
+	.single-news {
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 757px){}
+@media only screen and (max-width: 600px){}
+@media only screen and (max-width: 480px){}
+@media only screen and (max-width: 320px){}
